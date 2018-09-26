@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/first_nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="textAutoComplete" />
+    <EditText
+        android:id="@+id/last_nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="textAutoComplete" />
+    <EditText
+        android:id="@+id/address1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address 1"
+        android:inputType="textAutoComplete" />
+    <EditText
+        android:id="@+id/address2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address 2"
+        android:inputType="textAutoComplete" />
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/cellEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Save" />
+</LinearLayout>
